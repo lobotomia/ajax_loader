@@ -1,0 +1,30 @@
+#ajaxloader {
+	width: 640px;
+}
+
+#report-container {
+	margin-top: 15px;
+}
+
+.report-header {
+	border-top: 1px solid #CCC !Important;
+}
+
+.report-header, .report-item {
+	display: inline-block;
+	border-top: none;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 4px;
+	float: left;
+}
+
+.report-header > span, .report-item > span {
+	float: left;
+	width: 150px;
+}
+
+.report-item:hover {
+	background-color: #fffbd3;
+}
